@@ -1,7 +1,3 @@
-
-# TODO: 同じ表層形のエントリが複数登録可能か調べる (value を配列にする必要がある？)
-# TODO: '#' を含む単語が正常に動作するか？ (あるいは \0)
-
 module Trie
   class DoubleArray
     attr_reader :base, :check
